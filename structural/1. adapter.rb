@@ -1,6 +1,4 @@
-# Целевой класс объявляет интерфейс, с которым может работать клиентский код.
 class Target
-  # @return [String]
   def request
     'Target: The default target\'s behavior.'
   end
